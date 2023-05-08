@@ -1,0 +1,174 @@
+body{
+        margin: 0;
+}
+.landingPage{
+    /* height: 70vh; */
+    background-color: #2FC8B8;
+    width: 100%;
+}
+.topbar{
+    width: 100%;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+    padding: 20px;
+}
+.contact{
+    float: right; 
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding: 40px 40px;
+
+}
+.contact >a{
+    padding: 10px 20px;
+    text-decoration: none;
+    background: teal;
+    color: white;
+    font-weight: 400;
+    border-radius: 5%;
+}
+.calc{
+    padding-top: 15vh;
+    justify-content: center;
+    text-align: center;
+
+}
+.calc >h1{
+    color: white;
+    font: normal normal bold 50px/30px Bebas Neue;
+    letter-spacing: 0px;
+}
+.searching >p{ 
+    color:lightgray;
+}
+.stab{
+    background: #FFFFFF;
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+.stab >div:nth-child(1){
+    border: none;
+    width: 20%;
+}
+.stab >div:nth-child(2){
+    /* border: none; */
+    width: 33%;
+    text-align: center;
+    padding-top: 10px;
+    border-right: solid 3px lightgrey;
+}
+.stab >div:nth-child(3){
+    border: none;
+    width: 33%;
+    text-align: center;
+    padding-top: 10px;
+}
+.stab >div:nth-child(4){
+    border: none;
+    width: 20%;
+    padding: 10px;
+}
+.stab >div:last-child>button{
+    background: teal;
+    padding: 8px 30px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.cumul{
+    background: teal;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+#cNum{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #2FC8B8;
+}
+.cTxt{
+    color: white;
+    padding-bottom: 20px;
+}
+.container{
+    width: 100%;
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.row{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    box-shadow:  5px 10px 18px #888888;
+}
+.col{
+    width: 17%;
+    text-align: center;
+}
+.col >p:first-child{
+    color: teal;
+    font-size: x-large;
+}
+.col >p:nth-child(2){
+    font: bold;
+    font-weight: 500;
+}
+.col >p:last-child{
+    color: gray;
+    font-size: small;
+}
+.country{
+    border: none;
+}
+#sdate{
+    border: none;
+}
+#flag{
+    width: 45px;
+    height: 25px;
+    padding-top: 10px;
+}
+#countries{
+    width: 100%;
+    border: none;
+    text-align: center;
+    height: 28px;
+    background-color: #FFFFFF;
+}
+
+.continents{
+    height: 90vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    height: 50vh;
+    width: 40%;
+    background: teal;
+    margin: auto;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    border: 10px;
+    display: flex;
+}
+.box >div:first-child{
+    width: 50%;height: 50vh;
+}
+.box >div:last-child{
+    width: 50%;height: 50vh;
+    background: #FFFFFF;
+}

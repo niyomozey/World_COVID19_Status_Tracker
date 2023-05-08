@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CovidCal</title>
+        <link rel="stylesheet" href="../css/sheet.css" >
+    </head>
+    <body onload="myFunction()">
+        <div class="landingPage">
+            <div class="topbar">
+                <ul>
+                    <li><img src="../materials/C O V I C A L C.png"></li>
+                    <li class="contact"><a  href="#">CONTACT</a></li>
+                </ul>          
+            </div>
+
+            <div class="calc">
+                <h1>UPDATES</h1>
+                <div class="searching">
+                    <p>search by country</p>
+                    <form class="stab">
+                        <div>
+                           <img id="flag"> 
+                        </div>
+                        <div>
+                            <select onchange="getFlag()" id="countries" name="country"></select>
+                        </div>
+                        <div>
+                           <input id="sdate" type="date" name="sdate"> 
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="cumul">
+                    <p id="cNum">2,566,134</p>
+                    <p class="cTxt">Cumulatively</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                    <div class="col">
+                        <p id="Test"></p>
+                        <p>tests</p>
+                        <p id="tTest"></p>
+                    </div>
+                    <div class="col">
+                        <p id="Cases"></p> 
+                        <p>Positive cases</p>
+                        <p id="tCases"></p>                        
+                    </div>
+                    <div class="col">
+                        <p id="Hosp"></p> 
+                        <p>Hospitalized</p>
+                        <p id="tHosp"></p> 
+                    </div>
+                    <div class="col">
+                        <p id="Recovered"></p>
+                        <p>Recovered</p>
+                        <p id="tRecovered"></p> 
+                    </div>
+                    <div class="col">
+                        <p id="Death"></p> 
+                        <p>Death</p>
+                        <p id="tDeath"></p> 
+                    </div>
+                    <div class="col">
+                        <p id="Vaccinated"></p> 
+                        <p>Vaccinated</p>
+                        <p id="tVaccinated"></p> 
+                    </div>
+            </div>
+        </div>
+        <div class="continents">
+            <div class="box">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <script src="../js/script.js"></script>
+    </body>
+</html>
+  
